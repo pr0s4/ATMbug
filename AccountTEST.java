@@ -1,4 +1,4 @@
-package JavATM;
+import JavATM.Account;
 import java.util.Scanner;
 
 public class AccountTEST {
@@ -23,7 +23,7 @@ public class AccountTEST {
         account1.credit(depositAmount);
 
         //exibe o saldo
-        System.out.printf("Account balance is %2.f\n", 
+        System.out.printf("Account balance is %.2f\n", 
         account1.getBalance());
         System.out.printf("Account balance is %.2f\n", 
         account2.getBalance());
@@ -34,9 +34,9 @@ public class AccountTEST {
         account2.credit(depositAmount);
 
         //exibe o saldo
-        System.out.printf("Account balance is %2.f\n", 
+        System.out.printf("Account balance is %.2f\n", 
         account1.getBalance());
-        System.out.printf("Account balance is %2f\n", 
+        System.out.printf("Account balance is %.2f\n", 
         account2.getBalance());
 
     }
